@@ -1,4 +1,8 @@
 function timKhoangTrang(chuoi)
 {
+	for (var i = 0; i < chuoi.length; i++)
+		if (chuoi[i] == ' ')
+			return i;
+	
 	return -1;
 }
